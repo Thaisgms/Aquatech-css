@@ -117,7 +117,7 @@ body {
 /*FOOTER*/
 
 .footer {
-    height: 120px;
+    height: 80px;
     width: 100%;
     background-color: var(--azul);
 }
@@ -133,3 +133,74 @@ body {
  .footer h4 {
     margin-bottom: 0;
  }
+
+ /*Tela de login*/
+ .login {
+    height: 580px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login .container {
+    background-color: #dcdcdc;
+    padding: 10px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 34px;
+    color: #e4005a;
+    margin-bottom: 30px;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario .campo {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 5px;
+  }
+  
+  .formulario span {
+    display: block;
+    margin-bottom: 5px;
+    color: #e4005a;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .botao {
+    background-color: #e4005a;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    width: 40%;
+    max-width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+ 
+    
